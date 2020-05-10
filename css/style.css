@@ -37,15 +37,11 @@ body{
     justify-content: center;
 }
 
-.logo-box{
-
-}
-
-.logo{
+.header__logo{
     height: 45px;
 }
 
-.text-box{
+.header__text-box{
     flex: 1;
     align-self: center;
 
@@ -63,7 +59,7 @@ body{
     margin-bottom: 5%;
 }
 
-.heading-primary-main{
+.heading-primary--main{
     display: block;
     font-size: 73px;
     font-weight: 400;
@@ -74,7 +70,7 @@ body{
 
 }
 
-.heading-primary-sub{
+.heading-primary--sub{
     display: block;
     font-size: 20px;
     font-weight: 400;
@@ -151,7 +147,7 @@ body{
     transform: translateY(-1%);
 }
 
-.btn-white{
+.btn--white{
     background-color: #ffffff;
     color: #777;
 }
@@ -169,7 +165,7 @@ body{
     transition: all .2s;
 }
 
-.btn-white::after {
+.btn--white::after {
     background-color: white;
 }
 
@@ -178,7 +174,7 @@ body{
     opacity: 0;
 }
 
-.btn-animated{
+.btn--animated{
     animation: moveInButton 5s ease-out .75;
     animation-fill-mode: backwards;
 }
