@@ -1,0 +1,6 @@
+@mixin clearFix {
+    &::after{
+        content: "";
+        display: flow-root;
+    }
+}
