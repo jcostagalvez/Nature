@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
-  "repository": {
+  "repository": { 
     "type": "git",
     "url": "git+https://github.com/jcostagalvez/Nature.git"
   },
