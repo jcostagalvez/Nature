@@ -1,11 +1,9 @@
 .row {
     max-width: $grid-width;
     margin: 0 auto;
-    margin-bottom: $gutter-vertical;
-
-
-    &:last-child{
-        margin-bottom: 0;
+    
+    &:not(:last-child) {
+        margin-bottom: $gutter-vertical;
     }
 
     @include clearFix;
